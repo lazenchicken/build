@@ -7,15 +7,15 @@ race=night_elf
 region=us
 server=stormrage
 role=spell
-professions=enchanting=100/jewelcrafting=17
+professions=enchanting=102/jewelcrafting=17
 talents=1332222
 spec=balance
 
 azerite_essences=14:2/300573/5:2
-# azerite_essences_available=5:2/7:2/12:1/14:2/15:1/22:2/27:2
+# azerite_essences_available=5:2/6:1/7:2/12:1/14:2/15:1/22:2/27:2
 
 head=,id=168345,bonus_id=4823/1502/4786/6267,context=5,azerite_powers=173/575/18/83
-neck=,id=158075,bonus_id=4933/6316/4932/1580,context=11,azerite_level=55
+neck=,id=158075,bonus_id=4933/6316/4932/1582,context=11,azerite_level=56
 shoulder=,id=167764,bonus_id=6300/6298/1502/4786/6265/4775,azerite_powers=200/575/38/14/13
 back=,id=168391,gem_id=168638,bonus_id=4798/1808/1487/4786,context=3
 chest=,id=169073,bonus_id=4819/1472/4786/6263/4775,context=23,azerite_powers=122/200/31/540/13
@@ -25,9 +25,9 @@ wrist=,id=168377,bonus_id=4799/1502/5855/4783,context=5
 hands=,id=170334,bonus_id=6300/6292/1502/4786
 waist=,id=170368,bonus_id=6300/6292/1502/4786
 legs=,id=155869,bonus_id=5010/1612/5850/4784,context=35
-feet=,id=170141,bonus_id=6300/6292/1502/4786
-finger1=,id=169161,enchant_id=6110,bonus_id=4779/1472/4786,context=23
-finger2=,id=169160,enchant_id=6110,bonus_id=4779/1472/4786,context=23
+feet=,id=170141,bonus_id=6300/6293/1507/4786
+finger1=,id=169158,enchant_id=5943,bonus_id=4779/1472/4786,context=23
+finger2=,id=169159,enchant_id=5943,bonus_id=4779/1472/5850/4783,context=23
 trinket1=,id=169304,bonus_id=4798/1487/4786,context=3
 trinket2=,id=169328,context=13
 main_hand=,id=168397,enchant_id=6112,bonus_id=4799/1502/4786,context=5
@@ -35,50 +35,56 @@ off_hand=,id=168477,bonus_id=4799/41/1502/4786,context=5
 
 ### Gear from Bags
 #
-# Warring Ancient's Mask (405)
-# head=,id=166687,bonus_id=5478/1517/4786/5417/4775,context=3,azerite_powers=359/522/21/14/13
-#
 # Gravethorn Hood (420)
 # head=,id=158009,bonus_id=1607/4786/6264/4775,context=28,azerite_powers=364/193/38/84/13
 #
-# Ironpelt Pauldrons (144)
-# shoulder=,id=128121,bonus_id=3409/1472/5850/3441,context=4
-#
-# Fairweather Shoulderpads (415)
-# shoulder=,id=158043,bonus_id=1607/4786/6265,context=28,azerite_powers=
+# Warring Ancient's Mask (405)
+# head=,id=166687,bonus_id=5478/1517/4786/5417/4775,context=3,azerite_powers=359/522/21/14/13
 #
 # Seafarer Shoulderpads (420)
 # shoulder=,id=157979,bonus_id=1607/4786/6265/4775,context=28,azerite_powers=359/358/31/87/13
 #
+# Fairweather Shoulderpads (415)
+# shoulder=,id=158043,bonus_id=1607/4786/6265,context=28,azerite_powers=
+#
 # Fairweather Shoulderpads (420)
 # shoulder=,id=158043,bonus_id=1607/4786/6265/4775,context=28,azerite_powers=364/250/459/540/13
+#
+# Fathomstalker Shoulderpads (385)
+# shoulder=,id=167764,bonus_id=6296/6300/1472/4786/5415,azerite_powers=
 #
 # Mountebank's Colorful Cloak (420)
 # back=,id=169064,bonus_id=4779/1472/5850/4783,context=23
 #
-# Grongpelt Vest (405)
-# chest=,id=165515,bonus_id=4823/1522/4786/5416/4775,context=5,azerite_powers=359/247/462/84/13
+# Tunic of the Sycophant (415)
+# chest=,id=168350,bonus_id=4822/1487/4786/6263,context=3,azerite_powers=
 #
 # Fairweather Tunic (420)
 # chest=,id=158038,bonus_id=1607/4786/6263/4775,context=28,azerite_powers=122/200/461/14/13
 #
-# Tunic of the Sycophant (415)
-# chest=,id=168350,bonus_id=4822/1487/4786/6263,context=3,azerite_powers=
+# Grongpelt Vest (405)
+# chest=,id=165515,bonus_id=4823/1522/4786/5416/4775,context=5,azerite_powers=359/247/462/84/13
 #
-# Ironpelt Jerkin (144)
-# chest=,id=128125,bonus_id=3409/1472/5850/3441,context=4
+# Inowari's Waterdancer Grips (385)
+# hands=,id=170376,bonus_id=6288/6300
 #
-# Gloves of Corrupted Waters (425)
-# hands=,id=159321,bonus_id=5008/1597/4786,context=16
+# Galvanized Leather Grips (415)
+# hands=,id=169054,bonus_id=4779/43/1472/4786,context=23
+#
+# Mad King's Sporran (415)
+# waist=,id=168986,bonus_id=4779/1472/4786,context=23
 #
 # Fathomstalker Waistband (385)
 # waist=,id=167765,bonus_id=6288/6300/4802
 #
+# Leggings of the Stormborn (415)
+# legs=,id=168378,bonus_id=4798/1487/4786,context=3
+#
 # Pustule Bearer's Pants (410)
 # legs=,id=159338,bonus_id=5010/1582/4783,context=35
 #
-# Leggings of the Stormborn (415)
-# legs=,id=168378,bonus_id=4798/1487/4786,context=3
+# Shorting Bit Band (415)
+# finger1=,id=169160,enchant_id=6110,bonus_id=4779/1472/4786,context=23
 #
 # Ornate Elun'dris Ring (415)
 # finger1=,id=165679,enchant_id=6110,bonus_id=4803/1607/4786,context=28
@@ -86,8 +92,20 @@ off_hand=,id=168477,bonus_id=4799/41/1502/4786,context=5
 # Logic Loop of Maintenance (415)
 # finger1=,id=169076,bonus_id=4779/1472/4786,context=23
 #
+# Protecting Bit Band (415)
+# finger1=,id=169161,enchant_id=6110,bonus_id=4779/1472/4786,context=23
+#
 # Cursed Lover's Ring (415)
 # finger1=,id=168891,bonus_id=4798/1487/4786,context=3
+#
+# Highborne Compendium of Sundering (400)
+# trinket1=,id=169321,context=13
+#
+# Pocket-Sized Computation Device (418)
+# trinket1=,id=167555,gem_id=167556/168744/168631,gem_bonus_id=1483:5850:4783/1472:4786,bonus_id=1490,context=11
+#
+# Za'qul's Portal Key (415)
+# trinket1=,id=169306,bonus_id=4798/1808/1487/4786,context=3
 #
 # Incandescent Sliver (390)
 # trinket1=,id=165571,bonus_id=4798/42/1512/4783,context=3
@@ -95,26 +113,13 @@ off_hand=,id=168477,bonus_id=4799/41/1502/4786,context=5
 # Harlan's Loaded Dice (375)
 # trinket1=,id=155881,gem_id=168639,bonus_id=4780/4802/1547/4786,context=16
 #
-# Sea Giant's Tidestone (380)
-# trinket1=,id=165664,bonus_id=4803/4802/42/1572/4785,context=25
-#
-# Za'qul's Portal Key (415)
-# trinket1=,id=169306,bonus_id=4798/1808/1487/4786,context=3
-#
-# Highborne Compendium of Sundering (400)
-# trinket1=,id=169321,context=13
-#
-# Pocket-Sized Computation Device (418)
-# trinket1=,id=167555,gem_id=167556/168744,gem_bonus_id=1483:5850:4783/1472:4786,bonus_id=1490,context=11
+# Seabreeze (425)
+# main_hand=,id=158371,bonus_id=5008/1597/4786,context=16
 #
 # Current-Weaver's Gavel (415)
 # main_hand=,id=168904,bonus_id=4798/1487/4786,context=3
 #
-# Massive Viridian Claw of the Feverflare (266)
-# main_hand=,id=170115,bonus_id=4796/1701,drop_level=120
-#
-# Seabreeze (425)
-# main_hand=,id=158371,bonus_id=5008/1597/4786,context=16
-#
 # Royal Purifier's Spade (390)
 # main_hand=,id=159642,enchant_id=6148,bonus_id=5002/1562/4783,context=35
+# Ori's Tidal Wristwraps (415)
+# wrists=,id=170305,bonus_id=1502
